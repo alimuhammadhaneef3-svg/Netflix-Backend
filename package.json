@@ -4,12 +4,8 @@
   "description": "Netflix Clone Backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
@@ -21,30 +17,14 @@
 }
 ```
 
-Save the file.
-
 ---
 
-## ✅ Then Push To GitHub Again
-
-In VSCode terminal run:
+## ✅ Then Push To GitHub
 ```
 git add .
 ```
 ```
-git commit -m "fix start script"
+git commit -m "fix package.json and Procfile"
 ```
 ```
 git push
-```
-
----
-
-## ✅ Then On Railway
-
-- Go to your service
-- Click **Settings**
-- Find **Start Command**
-- Type exactly:
-```
-node server.js
