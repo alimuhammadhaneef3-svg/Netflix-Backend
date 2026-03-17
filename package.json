@@ -1,7 +1,6 @@
 {
   "name": "netflix-backend",
   "version": "1.0.0",
-  "description": "Netflix Clone Backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -17,14 +16,18 @@
 }
 ```
 
----
+**Step 2 - Delete Procfile in VSCode terminal:**
+```
+del Procfile
+```
 
-## ✅ Then Push To GitHub
+**Step 3 - Remove node_modules again:**
+```
+git rm -r --cached node_modules
+```
+
+**Step 4 - Push:**
 ```
 git add .
-```
-```
-git commit -m "fix package.json and Procfile"
-```
-```
-git push
+git commit -m "clean fix"
+git push origin master --force
